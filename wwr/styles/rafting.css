@@ -144,8 +144,16 @@ header img {
     width: 400px;
 }
 
+.features-title h1 {
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    text-decoration:overline underline;
+}
+
 .feature1 {
     text-align: center;
+    grid-row: 2;
 }
 
 .feature1 h2 {
@@ -155,6 +163,7 @@ header img {
 
 .feature2 {
     text-align: center;
+    grid-row: 2;
 }
 
 .feature2 h2 {
