@@ -72,6 +72,11 @@ header img {
     display: block;
     width: 100%;
     height: auto;
+    
+}
+
+.hero-image img {
+    opacity: 0.7;
 }
 
 .hero-text {
@@ -82,15 +87,18 @@ header img {
 }
 
 .hero-text h1 {
-    color: var(--secondary-color);
+    color: var(--accent1-color);
     font-family: var(--heading-font);
     text-align: center;
 }
 
 .hero-text p {
-    color: var(--accent1-color);
+    color: var(--primary-color);
     font-family: var(--paragraph-font);
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 .hero h1 {
@@ -121,6 +129,37 @@ header img {
 .hero article img {
     float: right;
     width: 160px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.features img {
+    width: 400px;
+}
+
+.feature1 {
+    text-align: center;
+}
+
+.feature1 h2 {
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+.feature2 {
+    text-align: center;
+}
+
+.feature2 h2 {
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
 }
 
 .history {
@@ -172,6 +211,11 @@ header img {
     grid-row: 2;
 }
 
+.signup-form {
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    text-align: center;
+}
 
 .info {
     padding-left: 50px;
@@ -249,6 +293,22 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+}
+
+.cta {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.cta a {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.cta a:hover {
+    color: var(--secondary-color);
 }
 
 footer {
